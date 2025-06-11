@@ -5,6 +5,7 @@ class: text-center
 drawings:
   persist: false
 transition: slide-left
+colorScheme: light
 presenter: dev
 mdc: true
 ---
@@ -570,9 +571,13 @@ export function string_length(string) {
 ```
 
 </div>
+
 ---
+layout: center
 ---
 
-goo bye
+# Muchas gracias!
+
+<img src="./assets/qr.png" alt="qr code" class="h-[300px] w-[300px]">
 
 
