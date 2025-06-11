@@ -26,7 +26,7 @@ Descubriendo Gleam a través del tipo de una alternativa a String
 
   - **2020:** Empiezo el grado en informática 👶🏻
   - **2023:** Descubro Elixir 🤩
-  - **2024:** Graduado 🎓 en ingeniería informática en 2024
+  - **2024:** Graduado 🎓 en ingeniería informática
   - **2024:** Desarrollador back-end 💻 en DLTCode
 
   <br>
@@ -59,16 +59,16 @@ Descubriendo Gleam a través del tipo de una alternativa a String
 backgroud: ./assets/FONDO.png
 ---
 
-# Que es un rope?
+# ¿Qué es un rope?
 
 <div class="grid grid-cols-2 gap-16">
   <div class="flex flex-col justify-center">
 
-  Un `rope` es un arbol binario, con dos tipos distintos de nodos:
+  Un `rope` es un árbol binario, con dos tipos distintos de nodos:
 
   - **Nodos hoja:** Contienen una cadena de caracteres y su peso (longitud).
   - **Nodos intermedios:** Solo tienen su peso, que es el tamaño de la cadena de caracteres
-    de su `sup-rope` **izquierda**
+    de su `sup-rope` **izquierdo**
 
   </div>
 
@@ -126,7 +126,7 @@ pub type Rope =
 <br>
 
 <div v-click>
-  Más adelante veremos las ventajas de los tiops de datos algebraicos ✴️
+  Más adelante veremos las ventajas de los tipos de datos algebraicos ✴️
   . 
 </div>
 
@@ -134,12 +134,12 @@ pub type Rope =
 layout: fact
 ---
 
-## Muy bien... pero que aspecto tiene una función en Gleam?
+## Muy bien... pero ¿qué aspecto tiene una función en Gleam?
 
 ---
 ---
 
-# Analisis del rendimiento
+# Análisis del rendimiento
 
 <div class="flex flex-col items-center justify-center gap-8 mt-8">
 
@@ -277,7 +277,7 @@ se gestionan de una manera que no tiene sentido.
 ---
 
 
-# Ramas inaccisibles
+# Ramas inacisibles
 
 <div class="flex flex-col gap-2">
 
@@ -359,7 +359,7 @@ error: Inexhaustive patterns
 ---
 ---
 
-# Condiciones que no son completas
+# Condiciones incompletas
 
 
 <div class="flex flex-col gap-2">
@@ -410,7 +410,7 @@ The missing patterns are:
 <div class="flex flex-col gap-4 justify-center">
 
 Es hora de comprobar si el rendimiento es el prometido, en el caso de `concat`, 
-la teoría nos dice que debería ser más rápido en las `ropes`, ya su complejidad
+la teoría nos dice que debería ser más rápido en las `ropes`, ya que su complejidad
 temporal es de $O(\log{n})$ vs. $O(n+m)$. <span v-click> Pero la realidad... </span>
 
 
@@ -419,7 +419,7 @@ temporal es de $O(\log{n})$ vs. $O(n+m)$. <span v-click> Pero la realidad... </s
 | Función | Instrucciones por segundo | Tiempo de ejecución medio | Diferencia |
 | --- | --- | --- | --- |
 | `string.concat` | 92.03 K | 10.87 μs |  |
-| `rope.concat`|  25.78 K | 38.78 μs |  3.57x slower |
+| `rope.concat`|  25.78 K | 38.78 μs |  3.57x más lento |
 
 </div>
 
@@ -482,7 +482,7 @@ layout: fact
 
 <div> 
 
-Gleam es un lenguaje joven, me encontré con que no había ninguna librería 
+Gleam es un lenguaje joven, descubrí que no había ninguna librería 
 nativa para realizar *flamegraphs* en Gleam.
 
 </div> 
