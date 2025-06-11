@@ -1,6 +1,8 @@
 ---
 theme: ./theme
-title: Implementando ropes en Gleam
+title: Ropes vs Strings - carloosaf
+author: Carlos Alonso Ferreira
+keywords: gleam, ropes, string, comparison, benchmark, performance
 class: text-center
 drawings:
   persist: false
