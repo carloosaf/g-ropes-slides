@@ -1,0 +1,103 @@
+:root {
+  --gleam-pink: #ffaff3;
+  --gleam-blue: #a6f0fc;
+  --gleam-yellow: #fffbe8;
+  --gleam-aubergine: #584355;
+  --gleam-underwater: #292d3e;
+}
+/* Light mode background */
+.slidev-slide-content {
+  color: #1e1e1e
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+}
+
+.slidev-layout {
+  background-image: url(../../assets/FONDO.png);
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+
+  h1 {
+    @apply text-4xl mb-4 -ml-[0.05em] underline underline-offset-6 decoration-3 decoration-[#ffaff3];;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em];
+  }
+
+  h6:not(.opacity-100) {
+    @apply opacity-40;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+}
+
+
+.slidev-layout.fact {
+  @apply text-center grid h-full;
+  h1 {
+    @apply text-8xl font-700;
+  }
+  h1 + p {
+    @apply font-700 text-2xl;
+  }
+  h2 {
+    @apply underline underline-offset-6 decoration-3 decoration-[#ffaff3] mb-2;
+  }
+}
+.slidev-layout.statement {
+  @apply text-center grid h-full;
+
+  h1 {
+    @apply text-6xl font-700;
+  }
+}
+.slidev-layout.quote {
+  @apply grid h-full;
+
+  h1 + p {
+    @apply mt-2;
+  }
+}
+.slidev-layout.section {
+  h1 {
+    @apply text-6xl font-500 leading-20;
+  }
+}
+
+pre {
+  border-left: 2px solid #ffaff3;
+}
