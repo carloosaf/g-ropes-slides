@@ -5,6 +5,7 @@ class: text-center
 drawings:
   persist: false
 transition: slide-left
+presenter: dev
 mdc: true
 ---
 
