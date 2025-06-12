@@ -176,7 +176,7 @@ layout: fact
 
 # Primera rama
 
-<div class="flex flex-col justify-center h-full"> 
+<div class="flex flex-col justify-center items-center h-full"> 
 
 ```gleam {4-7}
 fn insert_helper(node: RopeNode, index: Int, insert_value: Rope) -> RopeNode {
@@ -191,6 +191,7 @@ fn insert_helper(node: RopeNode, index: Int, insert_value: Rope) -> RopeNode {
 }
 ```
 
+<img src="./assets/rope_example_small.png" alt="insert_helper" class="h-[200px] w-[200px]">
 
 </div>
 
@@ -199,7 +200,7 @@ fn insert_helper(node: RopeNode, index: Int, insert_value: Rope) -> RopeNode {
 
 # Segunda rama
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center items-center h-full">
 
 ```gleam {4-8}
 fn insert_helper(node: RopeNode, index: Int, insert_value: Rope) -> RopeNode {
@@ -214,6 +215,8 @@ fn insert_helper(node: RopeNode, index: Int, insert_value: Rope) -> RopeNode {
   }
 }
 ```
+
+<img src="./assets/rope_example_small.png" alt="insert_helper" class="h-[200px] w-[200px]">
 
 </div>
 
