@@ -41,7 +41,7 @@ Descubriendo Gleam a través de una alternativa a String
 
   <div>
 
-  <carbon-logo-linkedin /> [carloosaf](www.linkedin.com/in/carloosaf)
+  <carbon-logo-linkedin /> [carloosaf](https://www.linkedin.com/in/carloosaf)
   </div> 
 
   </div> 
