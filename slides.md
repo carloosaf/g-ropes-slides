@@ -13,7 +13,7 @@ mdc: true
 ---
 
 # Ropes vs Strings
-Descubriendo Gleam a través del tipo de una alternativa a String
+Descubriendo Gleam a través de una alternativa a String
 
 ---
 
